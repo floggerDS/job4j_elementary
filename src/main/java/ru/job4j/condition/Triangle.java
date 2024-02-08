@@ -5,7 +5,8 @@ public class Triangle {
         return ((ab + ac) > bc) && ((ac + bc) > ab) && ((ab + bc) > ac);
     }
 
-    public static boolean  whenNotExist(double ab, double ac, double bc) {
+    public static boolean whenNotExist(double ab, double ac, double bc) {
         return !((ab + ac) > bc) && ((ac + bc) > ab) && ((ab + bc) > ac);
     }
+
 }
